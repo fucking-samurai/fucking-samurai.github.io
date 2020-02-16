@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+}
+.window {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, .35);
+    color: #fff;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.container {
+    display: flex;
+    z-index: 2;
+    color: #fff;
+}
+.bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text h2{
+    width: 100%;
+    padding: 25px;
+    color: white;
+	font-family: 'Rasa', serif;
+}
+.image-text img{
+	width: 50%;
+	height: 50%;
+	margin: 40;
+	padding: 40px;
+	display: flex;
+}
+.text-right{
+	display: flex;
+	text-align: right;
+	color: white;
+}
+
+
